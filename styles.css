@@ -1,0 +1,106 @@
+@media (max-width: 900px){
+    .launch-button {
+        margin-left: 70px;
+    }
+   .img-fluid {
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
+    }
+
+
+body{
+    background-color: #f8edeb;
+    padding: 20px;
+}
+
+h1, h2, h3, h4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    padding-bottom: 20px;
+}
+img{
+    vertical-align: middle;
+}
+.navbar{
+border-radius: 12px;}
+
+.container{
+    background-color: #f8edeb;
+    font-family: 'Andika', sans-serif;
+    padding: 20px auto;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+.container-sm{
+    background-color: #f8edeb;
+    font-family: 'Andika', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    border-radius: 12px;
+    padding: 20px auto;
+}
+.about-paragraph {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+    text-align: left;
+    justify-content:space-around;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    
+}
+
+.contact{
+    background-color: #C9D2DB;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.contact-me-button {
+    background-color: #7DABD0;
+    border: 1px solid #7DABD0;
+    border-radius: 12px !important;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.75);
+}
+.contact-button {
+    display: flex;
+    justify-content: center;
+    background-color: #7DABD0;
+    border: 1px solid #7DABD0;
+    border-radius: 12px !important;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.75);
+}
+
+.about-button, .launch-button{
+    background-color: #d65353;
+    border: 1px solid #d65353;
+    border-radius: 12px !important;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.75);
+}
+.primary-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+p{
+    padding: 20;
+    margin: 10px auto;
+    text-align: left;
+}
